@@ -1,0 +1,31 @@
+.user-guide-container {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 10%;
+  }
+
+  .drop-shadow {
+    box-shadow: 0px 2px 8px 0px rgba(144, 144, 144, 0.2);
+  }
+  
+  .user-guide-header {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38.4px;
+    color: #ffffff;
+    background-color: #432C5F;
+    padding: 16px 24px;
+    text-align: left;
+  }
+  
+  .user-guide-content {
+    padding-top: 32px;
+    padding-bottom: 80px;
+    background-color: #ffffff;
+  }
+  
+  .user-guide-img {
+    display: block;
+    width: 100%;
+  }

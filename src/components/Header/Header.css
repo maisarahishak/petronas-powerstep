@@ -1,9 +1,8 @@
 .header-container {
-    padding: 40px 10%;
+    padding: 50px 10%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FBFBFB;
   }
   
   .banner-image {

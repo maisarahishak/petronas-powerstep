@@ -1,0 +1,48 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 10%;
+  }
+
+  .drop-shadow {
+    box-shadow: 0px 2px 8px 0px rgba(144, 144, 144, 0.2);
+  }
+  
+  .about-header {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38.4px;
+    color: #ffffff;
+    background-color: #432C5F;
+    padding: 16px 24px;
+    text-align: left;
+  }
+  
+  .about-content {
+    padding: 40px 64px;
+    background-color: #ffffff;
+  }
+  
+  .about-logo {
+    display: block;
+    width: 50%;
+    margin-bottom: 36px;
+  }
+  
+  .about-paragraph {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4E4E4E;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .about-paragraph.semibold {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+  }
+  
