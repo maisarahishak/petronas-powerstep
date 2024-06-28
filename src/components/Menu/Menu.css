@@ -1,0 +1,36 @@
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px 0px rgba(144, 144, 144, 0.15);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    height: 60px;
+  }
+  
+  .menu-items {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu-item {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #4E4E4E;
+    line-height: 21px;
+    text-decoration: none;
+    padding-bottom: 2px;
+  }
+  
+  .menu-item.active {
+    font-weight: 600;
+    color: #432C5F;
+    border-bottom: 2px solid #432C5F;
+  }
+  
