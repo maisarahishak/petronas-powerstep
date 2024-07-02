@@ -1,6 +1,8 @@
 import React from 'react';
 import './ChallengeDetails.css';
-import Timeline from '../../assets/timeline.png'; 
+import Timeline from '../../assets/timeline.png';
+import Guide from '../../assets/guide.png';
+import DownloadApp from '../../assets/download-app.png'; // Add this import
 
 const ChallengeDetails = () => {
   return (
@@ -24,6 +26,23 @@ const ChallengeDetails = () => {
             </div>
             <div className="challenge-column">
               <img src={Timeline} alt="Timeline" className="challenge-timeline-img" />
+            </div>
+          </div>
+          <div className='top-stroke'>
+            <div className="new-user-guide-container">
+              <h2 className="guide-title">Guide for New Users</h2>
+              <img src={Guide} alt="Guide" className="guide-img" />
+            </div>
+          </div>
+          <div className="bottom-content">
+            <div className="bottom-column">
+              <img src={DownloadApp} alt="Download App" className="download-app-img" />
+            </div>
+            <div className="bottom-column">
+              <h2 className="bottom-title">Are you up for the challenge?</h2>
+              <p className="bottom-text">
+                Start by downloading BookDoc mobile application at the Apple App Store, Google Play Store or Huawei AppGallery!
+              </p>
             </div>
           </div>
         </div>

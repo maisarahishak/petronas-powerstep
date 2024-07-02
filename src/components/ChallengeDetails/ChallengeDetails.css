@@ -66,3 +66,71 @@ h2 {
   height: auto;
   vertical-align: middle;
 }
+
+.top-stroke {
+  padding: 0 64px 100px 64px;
+  background-color: white;
+}
+
+.new-user-guide-container {
+  border-top: 1px solid rgba(78, 78, 78, 0.1);
+  background-color: white;
+}
+
+.guide-title {
+  margin-top: 32px;
+  font-family: 'Museo Sans', sans-serif;
+  font-weight: 900;
+  font-size: 31.28px;
+  color: #432C5F;
+  margin-bottom: 55px;
+  text-align: left;
+}
+
+.guide-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.bottom-content {
+  display: flex;
+  padding: 32px 50px;
+  background-color: #F8F8F8;
+}
+
+.bottom-column {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.bottom-column:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-app-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.bottom-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #432C5F;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.bottom-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 120%;
+  color: #432C5F;
+  text-align: left;
+  margin: 0;
+}
